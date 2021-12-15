@@ -1,6 +1,3 @@
-import sys
-import time
-
 def decrypting(Final_encrypted):
     listhex = [Final_encrypted[i:i+2] for i in range(0, len(Final_encrypted), 2)]
     listint = []
